@@ -7,6 +7,16 @@ Uses
 [css-loader](https://www.npmjs.com/package/css-loader) and
 [sass-loader](https://www.npmjs.com/package/sass-loader)
 
+Webpack with a single line of code.
+
+Supports:
+* ES2017 + modules compilation
+* Tree-shaking, new in webpack 2 (removes unused library code)
+* Import `.scss` and `.css` in js
+* Custom config for Babel
+
+P.S. Try [gulp-query-webpack-buble](https://github.com/gulp-query/gulp-query-webpack-buble) with the blazing fast, batteries-included ES2015 compiler
+
 ```
 npm install gulp-query gulp-query-webpack
 ```
@@ -41,17 +51,17 @@ And feel the freedom
 ```
 gulp
 gulp --production // For production
-gulp watch // Wathing change
+gulp watch // Watching change
 gulp webpack // Only for webpack
 gulp webpack:app // Only for app.js
-gulp webpack:admin webpack:main watch // Wathcing change only for admin.js and main.js
+gulp webpack:admin webpack:main watch // Watching change only for admin.js and main.js
 ...
 ```
 
 ### Options
 ```javascript
 .webpack({
-    name: "new_name", // For gulp webpack:new_name 
+    name: "task_name", // For gulp webpack:task_name 
     from: "src/js/app.js",
     to: "js/", // set filename "js/concat.js" -- for rename
     source_map: true,

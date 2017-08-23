@@ -28,7 +28,7 @@ let build = require('gulp-query')
   , webpack = require('gulp-query-webpack')
 ;
 build((query) => {
-    query.plugins([js])
+    query.plugins([webpack])
       .webpack('src/js/app.js','js/','app')
     
       // Rename and own babel config

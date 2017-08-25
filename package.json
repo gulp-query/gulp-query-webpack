@@ -14,7 +14,8 @@
         "gulp-query",
         "gulp-query-plugin",
         "minification",
-        "buble",
+        "babel",
+        "bundle",
         "css",
         "scss",
         "sass"

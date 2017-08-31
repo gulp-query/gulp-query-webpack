@@ -61,6 +61,8 @@ class WebpackPlugin extends Plugin {
       path_to = node_path.dirname(path_to) + '/';
     }
 
+    filename_to = filename_to.replace('.jsx','.js');
+
     if (!(storage_name in WebpackPlugin.storage)) {
       let myDevConfigMin = this.webpackConfig();
       myDevConfigMin.entry = path_from + filename_from;

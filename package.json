@@ -1,6 +1,6 @@
 {
     "name": "gulp-query-webpack",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Webpack with a single line of code.",
     "main": "index.js",
     "author": "Marat Nuriev",

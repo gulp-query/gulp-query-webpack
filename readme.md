@@ -10,9 +10,9 @@ Uses
 Webpack with a single line of code.
 
 Supports:
-* ES2017 + modules compilation
-* Tree-shaking, new in webpack 2 (removes unused library code)
-* Import `.scss` and `.css` in js
+* Webpack 4 + Babel
+* Import `.scss` ans `.css` in js
+* Decorators, dynamic import, class properties, object rest spread
 * Custom config for Babel
 
 P.S. Try [gulp-query-webpack-buble](https://github.com/gulp-query/gulp-query-webpack-buble) with the blazing fast, batteries-included ES2015 compiler
